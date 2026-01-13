@@ -6,9 +6,9 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "82s-tf-remote-state-dev-143"
-    key = "module-demo-vpc"
-    region = "us-east-1"
+    bucket         = "82s-tf-remote-state-dev-143"
+    key            = "module-demo-vpc"
+    region         = "us-east-1"
     dynamodb_table = "82s-tf-remote-state-dev-143"
   }
 }
